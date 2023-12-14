@@ -1,0 +1,43 @@
+.portfolio{
+   padding: 90px 0;
+   background: #F1F1F1;
+   text-align: center;
+   @media (max-width: 700px){
+      padding: 60px 0;
+   }
+}
+
+.portfolio-title{
+   margin-bottom: 70px;
+   @media (max-width: 700px){
+      margin-bottom: 50px;
+   }
+}
+
+.portfolio-card + .portfolio-card {
+   margin-top: 90px;
+   @media (max-width: 700px){
+      margin-top: 55px;
+   }
+}
+
+.portfolio-card-img{
+   margin-bottom: 40px;
+   @media (max-width: 700px){
+      margin-bottom: 30px;
+   }
+}
+
+.portfolio-card-title a {
+    color: #070707;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    transition: all 0.2s ease-in;
+
+    &:hover{
+        color: blue;
+    }
+}
